@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: Google search functionality
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 1, Skipped: 0, Time elapsed: 19.056 s <<< FAILURE! - in Google search functionality
+Google search functionality.Search functionality result title verification #1  Time elapsed: 5.409 s  <<< FAILURE!
+org.junit.ComparisonFailure: Title is not as expected! expected:<[apple - Google Search]> but was:<[Google]>
+
+Google search functionality.Search functionality result title verification #2  Time elapsed: 5.043 s  <<< ERROR!
+org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-MN5F6PR', ip: '192.168.0.211', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\acika\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55915}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: add4d7afcb0c518cce42ef92a8a49032
+
